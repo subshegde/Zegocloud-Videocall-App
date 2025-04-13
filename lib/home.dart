@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       callID: "54321",
       config: ZegoUIKitPrebuiltCallConfig.oneOnOneVideoCall(),
       userID: "4567",
-      userName: "Rajeev",
+      userName: "Hegde",
       )),);
   }
 }
