@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_video_call/home.dart';
+import 'package:flutter_video_call/views/auth/pages/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Flutter Video Chat",
-      home: HomePage(),
+      title: "Zegocloud",
+      home: LoginPage(),
     );
   }
 }
