@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_video_call/common/helpers/configs/generate_unique_userId.dart';
-import 'package:flutter_video_call/common/helpers/snackbar/message.dart';
 import 'package:flutter_video_call/views/home/components/button.dart';
-import 'package:flutter_video_call/views/home/home.dart';
+import 'package:flutter_video_call/views/home/pages/home.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
 

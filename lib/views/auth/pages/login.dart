@@ -6,8 +6,8 @@ import 'package:flutter_video_call/common/helpers/navigation/appNavs.dart';
 import 'package:flutter_video_call/common/helpers/snackbar/message.dart';
 import 'package:flutter_video_call/db/database_helper.dart';
 import 'package:flutter_video_call/views/auth/pages/singup.dart';
-import 'package:flutter_video_call/views/home/home.dart';
-import 'package:flutter_video_call/views/home/ready.dart';
+import 'package:flutter_video_call/views/home/pages/home.dart';
+import 'package:flutter_video_call/views/home/pages/ready.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class LoginPage extends StatefulWidget {
